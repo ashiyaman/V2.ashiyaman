@@ -2,12 +2,12 @@ const About = () => {
   return (
     <section id="about" className="py-4 px-7 text-slate-400 bg-inherit">
       <div className="flex items-center gap-4 py-3 w-7/8">
-        <h3 className="text-slate-100 bg-violet-950 shadow-xl uppercase font-semibold px-6 py-4 text-lg md:text-3xl lg:text-4xl rounded-md">
+        <h3 className="text-slate-100 bg-violet-950 shadow-xl uppercase font-semibold px-6 py-4 text-lg rounded-md">
           About
         </h3>
         <span className="w-full h-[2px] bg-gradient-to-r from-red-400 via-purple-500 to-cyan-400"></span>
       </div>
-      <div className="pr-8 text-xl md:text-2xl lg:text-4xl my-4 w-full">
+      <div className="pr-8 text-xl my-4 w-full">
         <p className="py-4">
           Hello! I'm Ashiya — a full-stack developer fluent in JavaScript and
           passionate about building smooth, scalable web apps using the MERN
