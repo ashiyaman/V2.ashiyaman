@@ -14,7 +14,6 @@ const Work = () => {
         </div>
 
         <div className="flex flex-col gap-6 py-6 w-full">
-          <a href="https://sprout-nest-fe.vercel.app/" target="_blank" aria-label="Project-Sprout Nest">
             <div className="mx-auto">
               <div className="rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-500 border border-slate-700">
                 <div className="flex px-4 py-2 items-center gap-2">
@@ -38,6 +37,7 @@ const Work = () => {
                       href="https://sprout-nest-fe.vercel.app/"
                       target="_blank"
                       className="relative group"
+                      aria-label="View Demo for Sproutnest App"
                     >
                       <FaExternalLinkAlt className="text-2xl text-cyan-300 hover:text-cyan-500 transition duration-300" />
                       <span className="tooltip">View Demo</span>
@@ -46,6 +46,7 @@ const Work = () => {
                       href="https://github.com/ashiyaman/sproutnest-FE"
                       target="_blank"
                       className="relative group"
+                      aria-label="View Source Code for Sproutnest App"
                     >
                       <FaCode className="text-2xl text-cyan-300 hover:text-cyan-500 transition duration-300" />
                       <span className="tooltip">Source Code</span>
@@ -54,10 +55,8 @@ const Work = () => {
                 </div>
               </div>
             </div>
-          </a>
         </div>
 
-        {/* Repeat for other projects */}
         <div className="flex flex-col gap-6 py-6 w-full">
           <div className="mx-auto">
             <div className="rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-500 border border-slate-700">
@@ -81,6 +80,7 @@ const Work = () => {
                 <div className="flex justify-center gap-4 pt-4">
                   <a
                     href="https://dish-deck-fe.vercel.app/"
+                    aria-label="View Demo for Dishdeck App"
                     target="_blank"
                     className="relative group"
                   >
@@ -89,6 +89,7 @@ const Work = () => {
                   </a>
                   <a
                     href="https://github.com/ashiyaman/dishdeck-fe"
+                    aria-label="View Source Code for Dishdeck App"
                     target="_blank"
                     className="relative group"
                   >
@@ -125,6 +126,7 @@ const Work = () => {
                 <div className="flex justify-center gap-4 pt-4">
                   <a
                     href="https://eventura-fe.vercel.app/"
+                    aria-label="View Demo for Eventura App"
                     target="_blank"
                     className="relative group"
                   >
@@ -133,6 +135,7 @@ const Work = () => {
                   </a>
                   <a
                     href="https://github.com/ashiyaman/eventura-fe"
+                    aria-label="View Source Code for Eventura App"
                     target="_blank"
                     className="relative group"
                   >
