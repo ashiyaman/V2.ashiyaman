@@ -1,7 +1,7 @@
 const Footer = () => {
     return(
-        <footer className="h-14 shadow-xl/20 bg-inherit flex justify-center py-4">
-            <p className="text-cyan-300 ">Designed & Built by Ashiya Banu</p>
+        <footer className="h-14 flex bg-inherit py-5 justify-center">
+            <p className="text-cyan-300">Built by Ashiya Banu</p>
         </footer>
     )
 }

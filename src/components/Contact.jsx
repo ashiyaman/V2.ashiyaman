@@ -1,6 +1,6 @@
 const Contact = () => {
     return (
-        <section className="fixed bottom-0 flex-col right-7 z-10 flex items-center">
+        <section className="fixed bottom-0 flex-col right-5 z-10 flex items-center">
             <ul className="flex flex-col gap-4">
               <li>
                   <a href="https://github.com/ashiyaman" target="_blank" aria-label="GitHub">

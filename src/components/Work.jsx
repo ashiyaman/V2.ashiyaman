@@ -5,7 +5,7 @@ import './tooltip.css'
 const Work = () => {
   return (
     <section id="work" className="py-4 px-7 bg-inherit">
-      <div className="my-3 w-7/8">
+      <div className="my-3 w-14/15">
         <div className="flex items-center gap-4">
           <h3 className="text-slate-100 bg-violet-950 shadow-xl uppercase font-semibold px-6 py-4 text-lg rounded-md">
             Projects
