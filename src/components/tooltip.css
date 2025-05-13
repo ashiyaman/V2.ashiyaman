@@ -1,0 +1,21 @@
+.tooltip {
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 8px;
+  padding: 6px 10px;
+  background-color: #1a1443;
+  color: #fff;
+  border: 1px solid #66cbf6;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.group:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+}
