@@ -7,13 +7,13 @@ const Work = () => {
     <section id="work" className="py-4 px-7 bg-inherit">
       <div className="my-3 w-14/15">
         <div className="flex items-center gap-4">
-          <h3 className="text-slate-100 bg-violet-950 shadow-xl uppercase font-semibold px-6 py-4 text-lg rounded-md">
+          <h3 className="text-slate-100 md:text-3xl lg:text-4xl bg-violet-950 shadow-xl uppercase font-semibold px-6 py-4 text-lg rounded-md">
             Projects
           </h3>
           <span className="w-full h-[2px] bg-gradient-to-r from-red-400 via-purple-500 to-cyan-400"></span>
         </div>
 
-        <div className="flex flex-col gap-6 py-6 w-full">
+        <div className="flex flex-col gap-6 py-6 w-full md:text-2xl lg:text-4xl">
             <div className="mx-auto">
               <div className="rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-500 border border-slate-700">
                 <div className="flex px-4 py-2 items-center gap-2">
@@ -21,11 +21,11 @@ const Work = () => {
                   <div className="h-3 w-3 rounded-full bg-green-400"></div>
                   <div className="h-3 w-3 rounded-full bg-cyan-400"></div>
                 </div>
-                <div className="text-center text-cyan-300 text-lg lg:text-xl px-4">
+                <div className="text-center text-cyan-300 text-lg px-4 md:text-2xl lg:text-4xl">
                   Online Plant Store
                 </div>
                 <div className="border-t border-purple-900 px-4 py-5 w-full">
-                  <code className="w-full font-mono text-xs sm:text-sm md:text-base text-slate-200 block whitespace-pre-wrap break-words overflow-auto">
+                  <code className="w-full font-mono text-xs sm:text-sm md:text-2xl lg:text-3xl lg:py-8 text-slate-200 block whitespace-pre-wrap break-words overflow-auto">
                     {`const project = {
     Name: 'Sproutnest App',
     Tools: ['React JS', 'Redux Thunk', 'Mongo DB', 'Express', 'Node JS', 'Bootstrap'],
@@ -66,11 +66,11 @@ const Work = () => {
                 <div className="h-3 w-3 rounded-full bg-cyan-400"></div>
               </div>
 
-              <div className="text-center text-cyan-300 text-lg lg:text-xl px-4">
+              <div className="text-center text-cyan-300 text-lg md:text-2xl lg:text-4xl px-4">
                 Recipe Finder App
               </div>
               <div className="border-t border-purple-900 px-4 py-5 w-full">
-                <code className="w-full font-mono text-xs sm:text-sm md:text-base text-slate-200 block whitespace-pre-wrap break-words overflow-auto">
+                <code className="w-full font-mono text-xs sm:text-sm md:text-2xl lg:text-3xl lg:py-8 text-slate-200 block whitespace-pre-wrap break-words overflow-auto">
                   {`const project = {
   Name: 'DishDeck',
   Tools: ['React JS', 'Redux', 'Redux Thunk', 'Axios', 'Mongo DB', 'Express', 'Node JS', 'Bootstrap'],
@@ -102,7 +102,6 @@ const Work = () => {
           </div>
         </div>
 
-        {/* Continue for Event Management project */}
         <div className="flex flex-col gap-6 py-6 w-full">
           <div className="mx-auto">
             <div className="rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-500 border border-slate-700">
@@ -112,11 +111,11 @@ const Work = () => {
                 <div className="h-3 w-3 rounded-full bg-cyan-400"></div>
               </div>
 
-              <div className="text-center text-cyan-300 text-lg lg:text-xl px-4">
-                Event Management
+              <div className="text-center text-cyan-300 text-lg md:text-2xl lg:text-4xl px-4">
+                Event Management App
               </div>
               <div className="border-t border-purple-900 px-4 py-5 w-full">
-                <code className="w-full font-mono text-xs sm:text-sm md:text-base text-slate-200 block whitespace-pre-wrap break-words overflow-auto">
+                <code className="w-full font-mono text-xs sm:text-sm md:text-2xl lg:text-3xl lg:py-8 text-slate-200 block whitespace-pre-wrap break-words overflow-auto">
                   {`const project = {
   Name: 'Eventura',
   Tools: ['React JS', 'Mongo DB', 'Express', 'Node JS', 'Bootstrap'],

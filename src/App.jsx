@@ -10,7 +10,7 @@ import Work from "./components/Work"
 
 function App() {
   return (
-    <div className="dark:bg-slate-900 h-screen w-full">
+    <div className="dark:bg-slate-900 h-screen w-full py-5">
         <Navbar />
         <Home />
         <About />
