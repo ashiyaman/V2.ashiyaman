@@ -1,6 +1,6 @@
 const Contact = () => {
     return (
-        <section className="fixed bottom-0 flex-col right-10 z-10 flex items-center">
+        <section className="fixed bottom-0 flex-col right-7 z-10 flex items-center">
             <ul className="flex flex-col gap-4">
               <li>
                   <a href="https://github.com/ashiyaman" target="_blank" aria-label="GitHub">
@@ -10,7 +10,7 @@ const Contact = () => {
                       stroke="currentColor"
                       strokeWidth="1"
                       viewBox="0 0 24 24"
-                      className="w-7 h-7 text-cyan-300 hover:text-red-400 focus:text-red-400"
+                      className="w-7 h-5 text-cyan-300 hover:text-red-400 focus:text-red-400"
                   >
                       <path
                       strokeLinecap="round"
