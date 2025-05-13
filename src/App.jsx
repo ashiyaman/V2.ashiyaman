@@ -1,15 +1,10 @@
-import { useState } from 'react'
-
+import Navbar from "./components/Navbar"
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div className='mx-auto bg-amber-200'>
-        Ashiya
-      </div>
-    </>
+    <div className="dark:bg-slate-900 h-screen w-full">
+        <Navbar />
+    </div>
   )
 }
 
