@@ -1,7 +1,7 @@
 const Work = () => {
   return (
     <section id="work" className="py-4 px-7 bg-inherit">
-      <div className="my-3">
+      <div className="my-3 w-7/8">
         <div className="flex items-center gap-4">
           <h3 className="text-slate-100 bg-violet-950 shadow-xl uppercase font-semibold px-6 py-4 text-lg rounded-md">
             Projects
@@ -9,7 +9,7 @@ const Work = () => {
           <span className="w-full h-[2px] bg-gradient-to-r from-red-400 via-purple-500 to-cyan-400"></span>
         </div>
 
-        <div className="flex flex-col gap-6 py-6 w-10/12">
+        <div className="flex flex-col gap-6 py-6 w-full">
           <div className="mx-auto">
             <div className="rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-500 border border-slate-700">
               <div className="flex px-4 py-2 items-center gap-2">
@@ -34,7 +34,7 @@ const Work = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-6 py-6 w-10/12">
+        <div className="flex flex-col gap-6 py-6 w-full">
           <div className="mx-auto">
             <div className="rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-500 border border-slate-700">
               <div className="flex px-4 py-2 items-center gap-2">
@@ -59,7 +59,7 @@ const Work = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-6 py-6 w-10/12">
+        <div className="flex flex-col gap-6 py-6 w-full">
           <div className="mx-auto">
             <div className="rounded shadow-[0_0_30px_0_rgba(0,0,0,0.3)] transition-all duration-500 border border-slate-700">
               <div className="flex px-4 py-2 items-center gap-2">
