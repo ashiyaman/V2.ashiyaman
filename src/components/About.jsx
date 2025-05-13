@@ -7,7 +7,7 @@ const About = () => {
         </h3>
         <span className="w-full h-[2px] bg-gradient-to-r from-red-400 via-purple-500 to-cyan-400"></span>
       </div>
-      <div className="text-xl my-4">
+      <div className="text-xl my-4 pr-8">
         <p className="py-4">
           Hello! I'm Ashiya — a full-stack developer fluent in JavaScript and
           passionate about building smooth, scalable web apps using the MERN
