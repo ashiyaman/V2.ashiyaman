@@ -3,7 +3,7 @@ import { useState } from "react"
 const Navbar = () => {
     return(
         <nav className="h-14 text-slate-100 shadow-xl/20">
-            <div className="align-middle flex px-4 lg:px-8 items-center h-full justify-between md:text-2xl lg:text-3xl">
+            <div className="align-middle flex px-4 lg:px-8 items-center h-full justify-between">
                 <a href="/" className="text-cyan-300 text-lg font-semibold">Ashiya</a>
                 <ul className="text-slate-300 flex ">                   
                     <li><a href="#about" className="uppercase font-bold text-shadow-xs mx-2 hover:text-cyan-300 focus:text-cyan-300">About</a></li>
