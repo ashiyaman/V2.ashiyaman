@@ -7,22 +7,15 @@ Build and deploy the first version of your personal developer portfolio using th
 ---
 
 ### 1. Technology Stack  
-- **HTML5** (semantic elements: `<header>`, `<section>`, `<footer>`, `<h1>`–`<h3>`, `<nav>`)  
-- **CSS3**  
-  - Originally suggested: *Bootstrap 5 for layout and components*  
-  - **Used:** Tailwind CSS (to practice Tailwind instead of Bootstrap)  
-- **JavaScript:** React  
-- **Hosting:** Vercel  
+- ✅ **HTML5** (semantic elements: `<header>`, `<section>`, `<footer>`, `<h1>`–`<h3>`, `<nav>`)  
+- ⚠️ CSS3 with Bootstrap 5 - **Tailwind CSS** (used instead of Bootstrap to practice)  
+- ✅ **JavaScript:** React  
+- ✅ **Hosting:** Vercel  
 
 ---
 
 ### 2. Typography  
-Choose one clean, web‑friendly font. Examples:  
-- Inter  
-- Roboto  
-- Open Sans  
-
-✅ Applied chosen font consistently across headings, body text, and buttons.
+✅ Chose and applied a clean, web‑friendly font consistently (e.g., Inter, Roboto, Open Sans).
 
 ---
 
@@ -30,56 +23,47 @@ Choose one clean, web‑friendly font. Examples:
 Divide your portfolio into four clear sections, each wrapped in a `<section>` tag:
 
 #### 3.1 Hero / Introduction  
-- Custom hero section (in place of Bootstrap's Jumbotron)  
-- Includes:
-  - Name as an `<h1>`  
-  - One‑line tagline or brief bio as `<h2>` or `<p>`  
-  - Call‑to‑action button (e.g., “View My Work”)  
+- ✅ Custom hero section (instead of Bootstrap Jumbotron)  
+- ✅ Includes:
+  - ✅ Name as an `<h1>`  
+  - ✅ Tagline or brief bio as `<h2>` or `<p>`  
+  - ✅ Call‑to‑action button (“View My Work”)
 
 #### 3.2 Projects  
-- Section heading: `<h2>`: **My Projects**  
-- Intended layout: Bootstrap cards in a grid  
-- Current approach:
-  - Listed all technologies (not in badges)  
-- Each project card includes:
-  - Project Name (`<h3>`)  
-  - Brief Description (`<p>`)  
-  - Tech Pills: ⚠️ *Not yet in badge format*  
-  - Buttons:
-    - **View Demo** (links to live demo)  
-    - **Source Code** (links to GitHub repo)  
+- ✅ Section heading: `<h2>`: **My Projects**  
+- ✅ Project cards include:
+  - ✅ Project Name (`<h3>`)  
+  - ✅ Brief Description (`<p>`)  
+  - ⚠️ Technologies listed, but *not yet in badge format*  
+  - ✅ Buttons:
+    - ✅ **View Demo**  
+    - ✅ **Source Code**
 
 #### 3.3 Technologies  
-- Section heading: `<h2>`: **Technologies**  
-- Suggested layout: Three columns using Bootstrap’s grid  
-- **Used:** Horizontal scrolling list of skills  
-- Content: 4–6 technologies you know (e.g., HTML, CSS, JavaScript, React, Node.js, SQL)
+- ✅ Section heading: `<h2>`: **Technologies**  
+- ~~Bootstrap grid (3 columns)~~  
+- ✅ Used horizontal scrolling skills section  
+- ✅ Listed 4–6 key technologies  
 
 #### 3.4 Contact  
-- Section heading: `<h2>`: **Contact**  
-- Approach: Contact pills fixed on screen  
-- Suggested content: Three Bootstrap cards or icon–link blocks for:
-  - GitHub (link to profile)  
-  - LinkedIn (link to profile)  
-  - Resume (link to hosted PDF or download)  
+- ✅ Section heading: `<h2>`: **Contact**  
+- ✅ Used fixed-position contact pills  
+- ✅ Included:
+  - ✅ GitHub link  
+  - ✅ LinkedIn link  
+  - ✅ Resume download/view link  
 
 ---
 
 ### 4. Best Practices  
-- **Semantic HTML:** Proper heading order (`<h1>` → `<h2>` → `<h3>`), meaningful tags, alt text, ARIA labels  
-- **Color Palette:**  
-  - Limit to 2–3 basic colors  
-  - Used: Dark theme with light colors  
-- **Responsive Design:**  
-  - Ensure layouts adapt to mobile view  
-  - Originally with Bootstrap breakpoints  
-- **Clean Code:**  
-  - Organized files (e.g., `index.html`, `styles.css`, React components)  
-  - Helpful comments added where needed  
+- ✅ **Semantic HTML:** Proper heading order, meaningful tags, accessibility  
+- ✅ **Color Palette:** Dark theme with light text, limited to 2–3 core colors  
+- ✅ **Responsive Design:** Layout adapts to mobile  
+- ✅ **Clean Code:** Organized files, helpful comments added  
 
 ---
 
 ### 5. Deployment & Domain  
-- Hosted on: **Vercel**  
-- Domain: Free custom subdomain (e.g., `yourname.vercel.app`)  
-- ✅ All links and buttons verified to work as expected
+- ✅ Hosted on **Vercel**  
+- ✅ Set up free custom subdomain  
+- ✅ All links and buttons work correctly
