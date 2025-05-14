@@ -19,8 +19,8 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-4 px-3 bg-inherit">
-      <div className="w-14/15">
+    <section id="skills" className="py-4 px-7 bg-inherit">
+      <div className="w-7/8">
         <div className="flex items-center gap-4 py-3">
           <h3 className="text-slate-100 bg-violet-950 shadow-xl uppercase font-semibold px-6 py-4 text-lg md:text-3xl lg:text-4xl rounded-md">
             Skills
@@ -29,7 +29,7 @@ const Skills = () => {
         </div>
 
         <div className="overflow-hidden relative w-full my-6">
-          <div className="flex gap-6 whitespace-nowrap animate-scroll-left min-w-max py-2">
+          <div className="flex gap-6 whitespace-nowrap animate-scroll-left min-w-max">
             {[...skills, ...skills].map((skill, i) => (
               <div
                 key={i}
