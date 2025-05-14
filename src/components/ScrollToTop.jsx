@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaArrowUp } from "react-icons/fa";
-import "./tooltip.css"; // Make sure this path is correct
+import "./tooltip.css"; 
 
 const ScrollToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
