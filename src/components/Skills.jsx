@@ -19,10 +19,10 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-4 px-7 bg-inherit">
+    <section id="skills" className="py-4 px-5 bg-inherit">
       <div className="w-7/8">
         <div className="flex items-center gap-4 py-3">
-          <h3 className="text-slate-100 bg-violet-950 shadow-xl uppercase font-semibold px-6 py-4 text-lg md:text-3xl lg:text-4xl rounded-md">
+          <h3 className="text-slate-100 bg-violet-950 shadow-xl uppercase font-semibold px-6 py-4 text-lg rounded-md">
             Skills
           </h3>
           <span className="w-full h-[2px] bg-gradient-to-r from-red-400 via-purple-500 to-cyan-400"></span>
@@ -33,9 +33,9 @@ const Skills = () => {
             {[...skills, ...skills].map((skill, i) => (
               <div
                 key={i}
-                className="flex flex-col items-center gap-2 bg-[#1a1443] text-cyan-300 border border-cyan-500 rounded-xl px-5 py-2 text-lg md:text-xl lg:text-3xl lg:p-7 font-medium shadow-md"
+                className="flex flex-col items-center gap-2 bg-[#1a1443] text-cyan-300 border border-cyan-500 rounded-xl px-5 py-2 text-lg lg:p-7 font-medium shadow-md"
               >
-                <span className="text-2xl md:text-4xl lg:text-5xl">{skill.icon}</span>
+                <span className="text-xl">{skill.icon}</span>
                 <span >{skill.name}</span>
               </div>
             ))}
