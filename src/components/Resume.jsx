@@ -10,7 +10,7 @@ const Resume = () => {
         </div>
 
         <a
-  href="https://drive.google.com/file/d/1CKdTcnO4LN6eLop-1SmK5YReVbSVXWCs/view?usp=sharing"
+  href="https://drive.google.com/file/d/1f3ARBp9FXw_-BchoYnPN4EolxarNkBJ2/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
   aria-label="Download Ashiya's Resume"

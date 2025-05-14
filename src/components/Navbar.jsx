@@ -10,6 +10,7 @@ const Navbar = () => {
                     <li><a href="#work" className="uppercase font-bold text-shadow-xs mx-2 hover:text-cyan-300 focus:text-cyan-300">Work</a></li>
                     <li><a href="#skills" className="uppercase font-bold text-shadow-xs mx-2 hover:text-cyan-300 focus:text-cyan-300">Skills</a></li>
                     <li><a href="#resume" className="uppercase font-bold text-shadow-xs mx-2 hover:text-cyan-300 focus:text-cyan-300">Resume</a></li>
+                    <li><a href="#blogs" className="uppercase font-bold text-shadow-xs mx-2 hover:text-cyan-300 focus:text-cyan-300">Blogs</a></li>
                 </ul>
             </div>            
         </nav>
