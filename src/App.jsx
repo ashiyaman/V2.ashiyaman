@@ -1,4 +1,5 @@
 import About from "./components/About"
+import Blogs from "./components/Blogs"
 import Contact from "./components/Contact"
 import Footer from "./components/Footer"
 import Home from "./components/Home"
@@ -17,6 +18,7 @@ function App() {
         <Work />
         <Skills />
         <Resume />
+        <Blogs />
         <Footer />
         <ScrollToTop />
         <Contact />
