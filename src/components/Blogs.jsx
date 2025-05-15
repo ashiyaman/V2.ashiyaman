@@ -1,7 +1,7 @@
 const Blogs = () => {
   return (
-    <section id="blogs" className="py-4 px-7 bg-inherit">
-      <div className="flex items-center gap-4 py-3 w-7/8">
+    <section id="blogs" className="py-4 pr-12 px-10 md:pr-15 bg-inherit">
+      <div className="flex items-center gap-4 py-3 ">
         <h3 className="text-slate-100 bg-violet-950 shadow-xl uppercase font-semibold px-6 py-4 text-lg rounded-md">
           Blogs
         </h3>

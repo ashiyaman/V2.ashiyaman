@@ -17,7 +17,7 @@ const Home = () => {
     return () => clearInterval(interval)
   }, [])
   return (           
-    <section className="py-4 px-5 md:py-10 bg-inherit">
+    <section className="py-4 px-10 md:py-10 bg-inherit">
         <p className="text-slate-400 py-3 text-xl md:text-3xl">
         <b>Hi, My Name is</b>{" "}
         </p>

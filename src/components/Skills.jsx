@@ -19,8 +19,8 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-4 px-5 bg-inherit">
-      <div className="w-7/8">
+    <section id="skills" className="py-4 bg-inherit">
+      <div className="pl-10 pr-12 md:pr-15">
         <div className="flex items-center gap-4 py-3">
           <h3 className="text-slate-100 bg-violet-950 shadow-xl uppercase font-semibold px-6 py-4 text-lg rounded-md">
             Skills

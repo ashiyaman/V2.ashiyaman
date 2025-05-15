@@ -1,6 +1,6 @@
 const Contact = () => {
     return (
-        <section className="fixed bottom-0 flex-col right-5 z-10 flex items-center">
+        <section className="fixed bottom-0 flex-col right-2 md:right-5 lg:right-8 z-10 flex items-center justify-center align-middle">
             <ul className="flex flex-col gap-4">
               <li>
                   <a href="https://github.com/ashiyaman" target="_blank" aria-label="GitHub">
@@ -66,7 +66,7 @@ const Contact = () => {
                   </a>
               </li>
             </ul>
-            <div className="w-px h-30 bg-cyan-300"></div>
+            <div className="w-px h-50 bg-cyan-300 text-center"></div>
         </section>
     )
 }
