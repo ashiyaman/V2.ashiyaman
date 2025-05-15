@@ -9,7 +9,7 @@ const Blogs = () => {
       </div>
       <div className="flex flex-col md:flex-row text-slate-300 my-3">
         <div className="md:w-1/2 p-2 my-2 rounded-md md:mx-3 bg-slate-800 shadow-2xl">
-            <img src="../../../src/assets/blog1.png" alt="JS-Execution Context Blog image" className="rounded-md"/>
+            <img src="/blog1.png" alt="JS-Execution Context Blog image" className="rounded-md"/>
             <div className="my-2 p-1">
                 <p className="text-cyan-300"><span>May 15, 2025</span></p>
                 <h3 className="font-bold text-xl hover:text-red-400">
@@ -28,7 +28,7 @@ const Blogs = () => {
         </div>
 
         <div className="md:w-1/2 p-2 my-2 rounded-md md:mx-3 bg-slate-800 shadow-2xl">
-            <img src="../../../src/assets/blog2.jpeg" alt="JS-Execution Context Blog image" className="rounded-md h-1/3 w-full"/>
+            <img src="/blog2.jpeg" alt="JS-Execution Context Blog image" className="rounded-md h-1/3 w-full"/>
             <div className="my-2 p-1">
                 <p className="text-cyan-300"><span>May 16, 2025</span></p>
                 <h3 className="font-bold text-xl hover:text-red-400">
