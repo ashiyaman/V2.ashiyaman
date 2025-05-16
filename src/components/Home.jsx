@@ -30,7 +30,7 @@ const Home = () => {
         </p>        
         
         <a
-          href="#resume"
+          href="#work"
           aria-label="See Ashiya's Projects"
           className="inline-block group transition-all duration-300"
         >
