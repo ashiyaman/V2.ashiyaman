@@ -34,9 +34,9 @@ const Home = () => {
           aria-label="See Ashiya's Projects"
           className="inline-block group transition-all duration-300"
         >
-          <div className="rounded-lg p-[2px] bg-gradient-to-r from-red-400 via-purple-500 to-cyan-400 group-hover:from-cyan-400 group-hover:via-purple-500 group-hover:to-red-400">
+          <div className="rounded-lg p-[2px] bg-gradient-to-r from-red-400 via-purple-500 to-cyan-400 hover:bg-none">
             <div className="bg-slate-900 rounded-lg">
-              <button className="uppercase text-slate-300 font-semibold text-lg py-4 px-8 rounded-lg w-full transition-all duration-300 group-hover:text-slate-900">
+              <button className="uppercase text-slate-300 hover:text-slate-900 font-semibold text-lg py-4 px-8 rounded-lg w-full transition-all duration-300 hover:bg-gradient-to-r hover:from-red-400 hover:via-purple-500 hover:to-cyan-400">
                 View My Work
               </button>
             </div>
