@@ -67,14 +67,14 @@ const Work = () => {
               </div>
 
               <div className="text-center text-cyan-300 text-lg px-4">
-                Recipe Finder App
+                Recipe App
               </div>
               <div className="border-t border-purple-900 px-4 py-5 w-full">
                 <code className="w-full font-mono text-xs sm:text-sm md:text-md lg:py-8 text-slate-400 block whitespace-pre-wrap break-words overflow-auto">
                   {`const project = {
   Name: 'DishDeck',
   Tools: ['React JS', 'Redux', 'Redux Thunk', 'Axios', 'Mongo DB', 'Express', 'Node JS', 'Bootstrap'],
-  Description: 'DishDeck is a powerful and user-friendly recipe organizer designed for food enthusiasts. I developed the front-end using React.js, Bootstrap, Redux, and Redux Thunk. The app allows users to search, filter, and view detailed recipes with ingredients and instructions. I built the back-end with Node.js and Express, using Axios for data fetching and MongoDB for storing user-generated recipes and favorites.' 
+  Description: 'DishDeck is a powerful and user-friendly recipe organizer designed for food enthusiasts. I developed the front-end using React.js, Bootstrap, Redux, and Redux Thunk. The app allows users to add, search, filter, and view detailed recipes with ingredients and instructions. I built the back-end with Node.js and Express, using Axios for data fetching and MongoDB for storing user-generated recipes and favorites.' 
 }`}
                 </code>
                 <div className="flex justify-center gap-4 pt-4">
